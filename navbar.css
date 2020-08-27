@@ -1,0 +1,80 @@
+.navBar nav{
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    letter-spacing: 5px;
+    color: #e29863;
+    font-size: 18px;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    width: 40%;
+}
+.nav-link li{
+    list-style: none;
+}
+.nav-link a{
+    text-decoration: none;
+    color: 	#eea757;
+    font-weight: bold;
+}
+
+.burger div{
+    width: 50%;
+    height: 5px;
+    margin: 5px;
+    background-color: rgba(0, 255, 13, 0.603);
+}
+.navBar{
+    background-color: #D2691E ;
+}
+.burger{
+    display: none;
+}
+
+.logo hr{
+    border: 1px solid #9e5244;
+    
+}
+
+
+@media screen and ( max-width:414px){
+  .logo h1{
+      font-size: 20px;
+  }
+  .burger{
+    display: block;
+    margin-left: 40px;
+}
+.nav-link{
+    display: block;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.nav-link li{
+    display: none;
+    justify-content: space-between;
+}
+ .info ul li{
+     list-style-type: none;
+     margin-right: -20px;
+ }
+    
+ .navBar nav{
+    margin-left: 30px ;
+    display: flex;
+    
+    }
+.logo hr{
+        border: 1px solid #9e5244;
+        width: 50%;
+        
+    }
+}
+
